@@ -1,0 +1,11 @@
+:host {
+  display: block;
+}
+
+.image {
+  margin-bottom: 8px;
+}
+
+.remove {
+  margin-left: 8px;
+}

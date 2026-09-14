@@ -1,12 +1,15 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { ImageGallery } from './image-gallery';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  imports: [ImageGallery],
+  template: `<image-gallery [links]="links" />`,
 })
 export class App {
-  protected readonly title = signal('image-gallery-app-angular');
+  protected readonly links = [
+    'https://tinyurl.com/im-gal-1st',
+    'https://tinyurl.com/im-gal-2nd',
+    'https://tinyurl.com/im-gal-3rd',
+  ];
 }

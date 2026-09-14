@@ -1,0 +1,8 @@
+<div>
+  @for (link of links; track link; let index = $index) {
+    <div class="image">
+      {{ link }}
+      <button type="button" class="remove" (click)="removeImage(index)">X</button>
+    </div>
+  }
+</div>

@@ -1,5 +1,9 @@
 # ImageGalleryAppAngular
 
+This project implements a minimal Angular image gallery based on the task in `README-TASK.md`.
+
+The app renders a list of image URLs passed through the `links` input, displays each one inside a `.image` container, and includes a remove button for each item. Clicking the button removes that image from the gallery while keeping the remaining items in order.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.6.
 
 ## Development server
