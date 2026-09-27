@@ -10,6 +10,6 @@ export class App {
   protected readonly links = [
     'https://tinyurl.com/im-gal-1st',
     'https://tinyurl.com/im-gal-2nd',
-    'https://tinyurl.com/im-gal-3rd',
+    // 'https://tinyurl.com/im-gal-3rd',
   ];
 }

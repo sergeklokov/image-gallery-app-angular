@@ -6,6 +6,21 @@ The app renders a list of image URLs passed through the `links` input, displays 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.6.
 
+## Initial task:
+https://www.testdome.com/tests/angular-online-test/70
+
+## How to create this app:
+ng new image-gallery-app-angular
+ng g c image-gallery
+in image-gallery.ts
+    rename: selector: 'image-gallery',
+    add standalone field: true, to image-gallery.ts component (older versions use NgModule)
+
+in app.ts 
+    add protected readonly links..
+        protected meansaccessible inside the class itself AND inside its subclasses, but NOT from the outside.
+
+
 ## Development server
 
 To start a local development server, run:

@@ -32,6 +32,10 @@ For example, after the first image has been removed from the gallery above, its 
 
 The code for running the example case locally is provided **here**.
 
+## Initial task:
+https://www.testdome.com/tests/angular-online-test/70
+
+
 ## Angular 18
 
 ```ts

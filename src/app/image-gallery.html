@@ -1,7 +1,7 @@
 <div>
   @for (link of links; track link; let index = $index) {
     <div class="image">
-      {{ link }}
+      <img [src]="link" alt="Image" />
       <button type="button" class="remove" (click)="removeImage(index)">X</button>
     </div>
   }
